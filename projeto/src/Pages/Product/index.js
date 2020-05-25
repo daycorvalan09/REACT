@@ -24,7 +24,7 @@ export default class Product extends Component {
                 <h1>{product.title}</h1>
                 <p>{product.description}</p>
                 <p>
-                    URL: <a href ={product.url}>{product.url}</a>
+                    URL: <Link href ={product.url}>{product.url}</Link>
                 </p>
             </div>
         );
